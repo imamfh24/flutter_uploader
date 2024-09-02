@@ -9,7 +9,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 const String title = 'FileUpload Sample app';
 final Uri uploadURL = Uri.parse(
-  'http://192.168.0.40:5001/flutteruploader/us-central1/upload',
+  'https://us-central1-flutteruploadertest.cloudfunctions.net/upload',
 );
 
 void backgroundHandler() {
